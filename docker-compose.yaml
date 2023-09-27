@@ -3,7 +3,7 @@ version: "2.20"
 services:
   app:
     build:
-      dockerfile: mysite/Dockerfile
+      dockerfile: Dockerfile
     command:
       - gunicorn
       - mysite.wsgi:application
